@@ -20,6 +20,10 @@ function CartPage() {
     dispatch(removeItem(id));
   };
 
+  const handleCheckout = () => {
+    alert('Coming Soon');
+  };
+
   if (items.length === 0) {
     return (
       <div className="cart-page">
@@ -92,7 +96,7 @@ function CartPage() {
               <span>Total Amount:</span>
               <span>${totalAmount.toFixed(2)}</span>
             </div>
-            <button className="checkout-btn">Proceed to Checkout</button>
+            <button className="checkout-btn" onClick={handleCheckout}>Proceed to Checkout</button>
             <Link to="/products">
               <button className="continue-shopping-btn">Continue Shopping</button>
             </Link>
