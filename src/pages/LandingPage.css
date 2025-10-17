@@ -1,0 +1,69 @@
+.landing-page {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('https://images.unsplash.com/photo-1466781783364-36c955e42a7f?w=1920&h=1080&fit=crop') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-content {
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  padding: 2rem;
+}
+
+.company-name {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.company-description {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.get-started-btn {
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  background-color: #4a7c2c;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.get-started-btn:hover {
+  background-color: #3a6222;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+  .company-name {
+    font-size: 2.5rem;
+  }
+
+  .company-description {
+    font-size: 1.1rem;
+  }
+
+  .get-started-btn {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+  }
+}
