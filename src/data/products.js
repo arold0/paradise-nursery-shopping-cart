@@ -10,7 +10,7 @@ export const products = [
     name: 'Snake Plant',
     price: 15.99,
     category: 'Air Purifying Plants',
-    thumbnail: 'https://images.unsplash.com/photo-1593482892540-73c6f32f1535?w=400&h=400&fit=crop',
+    thumbnail: 'https://images.unsplash.com/photo-1589902860017-1c9202b2896f?w=400&h=400&fit=crop',
     description: 'A hardy plant that purifies air'
   },
   {
